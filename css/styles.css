@@ -1,6 +1,7 @@
 .index{
   background-image: url(../images/home-cover.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
  .container{
