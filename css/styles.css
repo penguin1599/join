@@ -129,9 +129,3 @@ padding-left: 20px;
 .signup-box input[type="submit"]:hover{
   background: #2ecc71;
 }
-@media (max-width:800px)
-{
-  .index{
-  background-repeat: no-repeat;
-}
-  
