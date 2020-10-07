@@ -1,0 +1,129 @@
+.index{
+  background-image: url(../images/home-cover.jpg);
+  background-size: cover;
+}
+
+ .container{
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding-top: 7%;
+}
+
+.btn{
+  position: relative;
+  text-align: center;
+  width: 25%;
+}
+/* SIGN IN PAGE */
+.sign-in{
+  background: #060608;
+}
+
+.signin-box{
+  width:300px;
+  padding: 7% 15%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #222222;
+  color: #4a4a48;
+  text-align: center;
+}
+.signin-box h1{color:#e0e0ec; }
+.signin-box input[type="text"],.signin-box input[type="password"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin:20px auto;
+  text-align: center;
+  border: 2px solid #3282b8;
+  padding: 14px 10px;
+  width: 55%;
+  outline: none;
+  color: #4a4a48;
+  border-radius: 25px;
+  transition: 0.25s;
+}
+.signin-box input[type="text"]:focus,.signin-box input[type="password"]:focus
+{
+width:70%;
+border-color: #259f6c;
+padding-left: 20px;
+}
+.signin-box input[type="submit"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin:20px auto;
+  text-align: center;
+  border: 2px solid #3282b8;
+  padding: 14px 10px;
+  width: 55%;
+  outline: none;
+  color: #4a4a48;
+  border-radius: 25px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.signin-box input[type="submit"]:hover{
+  background: #2ecc71;
+}
+/* SIGN UP PAGE */
+
+.sign-up{
+  background: #060608;
+}
+.signup-box h1{color:#e0e0ec; }
+.signup-box{
+  width:300px;
+  padding: 7% 15%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #222222;
+  color: #4a4a48;
+  text-align: center;
+}
+.signup-box input[type="text"],.signup-box input[type="email"],.signup-box input[type="password"],.signup-box input[type="date"]
+{
+  border: 0;
+  background: none;
+  display: block;
+  margin:20px auto;
+  text-align: center;
+  border: 2px solid #3282b8;
+  padding: 14px 10px;
+  width: 55%;
+  outline: none;
+  color: #4a4a48;
+  border-radius: 25px;
+  transition: 0.25s;
+}
+.signup-box input[type="submit"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin:20px auto;
+  text-align: center;
+  border: 2px solid #3282b8;
+  padding: 14px 10px;
+  width: 55%;
+  outline: none;
+  color: #4a4a48;
+  border-radius: 25px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.signup-box input[type="text"]:focus,.signup-box input[type="password"]:focus,.signup-box input[type="email"]:focus,.signup-box input[type="date"]:focus
+{
+width:70%;
+border-color: #259f6c;
+padding-left: 20px;
+}
+.signup-box input[type="submit"]:hover{
+  background: #2ecc71;
