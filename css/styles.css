@@ -132,8 +132,6 @@ padding-left: 20px;
 @media (max-width:800px)
 {
   .index{
-  background-image: url(../images/home-cover.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
 }
   
